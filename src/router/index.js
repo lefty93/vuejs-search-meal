@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { Home, MealsByIngredient, MealsByLetter, MealsByName } from "../views";
+import { Home, MealsByIngredient, MealsByLetter, MealsByName, MealDetails } from "../views";
 import DefaultLayout from "../components/DefaultLayout.vue";
 
 
@@ -27,6 +27,11 @@ const routes = [
         path: "/by-letter/:letter?",
         name: "byLetter",
         component: MealsByLetter
+      },
+      {
+        path: "/meal/:id",
+        name: "mealDetails",
+        component: MealDetails
       },
     ]
   },
