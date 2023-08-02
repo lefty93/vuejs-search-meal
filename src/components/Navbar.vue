@@ -22,7 +22,7 @@
       </router-link>
 
       <router-link
-        :to="{ name: 'byIngredient' }"
+        :to="{ name: 'Ingredients' }"
         class="inline-flex items-center transition-colors px-2 h-full hover:bg-purple-200"
       >
         Meals by Ingredient
@@ -31,4 +31,6 @@
   </header>
 </template>
 
-<script setup></script>
+<script setup>
+
+</script>

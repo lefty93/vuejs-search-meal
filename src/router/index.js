@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import { Home, MealsByIngredient, MealsByLetter, MealsByName, MealDetails } from "../views";
+import { Home, MealsByIngredient, MealsByLetter, MealsByName, MealDetails, Ingredients } from "../views";
 import DefaultLayout from "../components/DefaultLayout.vue";
 
 
@@ -12,6 +12,11 @@ const routes = [
         path: "/",
         name: "home",
         component: Home
+      },
+      {
+        path: "ingredients",
+        name: "Ingredients",
+        component: Ingredients
       },
       {
         path: "/by-ingredient/:ingredient?",
