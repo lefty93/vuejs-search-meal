@@ -9,13 +9,7 @@
     </router-link>
 
     <div class="p-3">
-      <h3 class="font-semibold">{{ meal.strMeal }}</h3>
-      <p class="mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt unde
-        quaerat ipsam omnis veritatis est, quos enim quis sequi, odio
-        consequatur nesciunt iusto. Molestias, eos impedit illo repellendus
-        tempore nemo.
-      </p>
+      <h3 class="font-semibold mb-4">{{ meal.strMeal }}</h3>
       <div class="flex justify-between">
         <!-- use v-if="meal.strYoutube !== ''" to check if the strYoutube property in the meal object is not an empty string.  -->
         <!-- If strYoutube is an empty string, the YoutubeButton component will not be rendered in the template. -->
