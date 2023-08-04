@@ -11,7 +11,6 @@ import axiosClient from "../axiosClient";
 import Meals from "../components/Meals.vue";
 
 const meals = ref([]);
-
 onMounted(async () => {
   for (let i = 0; i < 10; i++) {
     axiosClient
