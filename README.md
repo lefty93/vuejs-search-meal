@@ -1,7 +1,7 @@
 # MEALS RECIPE FILTER
 
 A Vue application for searching meal recipes.
-![image](https://user-images.githubusercontent.com/86913048/227101123-f8a35258-9c21-4479-86e8-055659ab75e2.png)
+![screenshot](https://github.com/lefty93/vuejs-search-meal/assets/67009773/6af48182-7f54-4d97-8758-be3d8495aeef)
 
 ## Table of Contents
 
