@@ -50,7 +50,7 @@
           >Youtube</YoutubeButton
         >
         <a
-          v-if="meal.strSource !== ''"
+          v-if="meal.strSource !== null && meal.strSource !== ''"
           :href="meal.strSource"
           target="_blank"
           class="ml-3 px-3 py-2 rounded border border-blue-600 hover:bg-blue-500 text-blue-500 hover:text-white transition-colors"
