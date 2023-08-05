@@ -65,7 +65,7 @@ Following are the major dependencies of the project:
 ## Useful Links
 - API Used
   
-  - https://www.themealdb.com/api.php
+  - API Link: https://www.themealdb.com/api.php
 
 - This project
 
