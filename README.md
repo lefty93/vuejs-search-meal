@@ -63,6 +63,9 @@ Following are the major dependencies of the project:
 4. Go to http://localhost:3000
 
 ## Useful Links
+- API Used
+  
+  - https://www.themealdb.com/api.php
 
 - This project
 
